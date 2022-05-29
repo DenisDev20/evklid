@@ -5,15 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalaze.css">
-  <script defer src="./js/jquery-1.12.4.js"></script>
-  <script defer src="./js/jquery-ui.js"></script>
 
-  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/style.min.css">
   <!-- <link rel="stylesheet" href="css/fonts.css"> -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/swiper-bundle.css">
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/adaptive.css">
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/adaptive.min.css">
   <title>EVCLID</title>
 
   <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font">
@@ -23,10 +24,9 @@
   <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font">
   <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font">
 
-  <script defer src="./js/index.js"></script>
+  <script defer src="./js/index.min.js"></script>
   <script defer src="./js/tabs.js"></script>
-  <script src="./js/swiper-bundle.js"></script>
-  <script src="./js/swiper-bundle.min.js"></script>
+
 
 </head>
 
@@ -286,7 +286,7 @@
               <div class="tab_work__right">
                 <picture>
                   <source srcset="./img/main/How-we-work/how-we-work.webp" type="image/webp">
-                  <img src="./img/main/How-we-work/how-we-work.jpg" class="tab_work__img" alt="">
+                  <img src="./img/main/How-we-work/how-we-work.jpg" class="tab_work__img" alt="Проводим консультацию">
                 </picture>
               </div>
             </div><!-- /.tab_content__item -->
@@ -313,7 +313,7 @@
               <div class="tab_work__right">
                 <picture>
                   <source srcset="./img/main/How-we-work/how-we-work-2.webp" type="image/webp">
-                  <img src="./img/main/How-we-work/how-we-work-2.webp" alt="">
+                  <img src="./img/main/How-we-work/how-we-work-2.webp" class="tab_work__img" alt="Составляем смету">
                 </picture>
               </div>
             </div><!-- /.tab_content__item -->
@@ -339,7 +339,8 @@
               <div class="tab_work__right">
                 <picture>
                   <source srcset="./img/main/How-we-work/how-we-work-3.webp" type="image/webp">
-                  <img src="./img/main/How-we-work/how-we-work-3.webp" alt="">
+                  <img src="./img/main/How-we-work/how-we-work-3.webp" class="tab_work__img"
+                    alt="Привлекаем подрядчиков">
                 </picture>
               </div>
             </div><!-- /.tab_content__item -->
@@ -362,7 +363,8 @@
               <div class="tab_work__right">
                 <picture>
                   <source srcset="./img/main/How-we-work/how-we-work-4.webp" type="image/webp">
-                  <img src="./img/main/How-we-work/how-we-work-4.webp" alt="">
+                  <img src="./img/main/How-we-work/how-we-work-4.webp" class="tab_work__img"
+                    alt="Инспектируем все этапы работ">
                 </picture>
               </div>
             </div><!-- /.tab_content__item -->
@@ -520,7 +522,16 @@
 
     </div><!-- /.container -->
   </footer>
-
+  <script src="js/lazyload.min.js"></script>
+  <script>
+    lazyload();
+  </script>
+  <script src="./js/swiper-bundle.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <!-- <link rel="stylesheet" href="css/swiper-bundle.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
+  <script defer src="./js/jquery-1.12.4.js"></script>
+  <script defer src="./js/jquery-ui.js"></script>
 </body>
 
 </html>
