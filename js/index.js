@@ -6,14 +6,14 @@ document.querySelector('#menu').classList.toggle('is-active')
 
 
   // аккордеон
-  $(function () {
-    $("#accordion").accordion();
-  });
-  $(".selector").accordion({
-    classes: {
-      "ui-state-active": "round:hover"
-    }
-  });
+//   $(function () {
+//     $("#accordion").accordion();
+//   });
+//   $(".selector").accordion({
+//     classes: {
+//       "ui-state-active": "round:hover"
+//     }
+//   });
 
   // Свайпер
   const swiper = new Swiper('.swiper-container', {
